@@ -223,6 +223,7 @@ h1, h2, h3, h4 {
 .cards { display: grid; grid-template-columns: 1fr; gap: 18px; }
 @media (min-width: 640px) { .cards { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 960px) { .cards.cols-5 { grid-template-columns: repeat(5, 1fr); } }
+@media (min-width: 960px) { .cards.cols-3 { grid-template-columns: repeat(3, 1fr); } }
 
 .card {
   background: var(--white); border: 1px solid var(--grey-100);
