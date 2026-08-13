@@ -1,0 +1,4 @@
+Before investing in a major control system upgrade, you need facts, not guesses. At Konark Process Instruments in Vatva, we provide comprehensive site surveys and feasibility studies for industrial automation and furnace projects. I personally assess your existing infrastructure, review process requirements, and identify potential risks before engineering begins. This disciplined approach ensures that your new PLC/SCADA or Burner Management System is built on a solid foundation, saving you time and cost during commissioning. Contact us to schedule a site survey.
+
+WhatsApp +91 8905378147 or email konarkinstruments@gmail.com
+[Insert website link after deployment]
