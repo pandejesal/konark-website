@@ -1,0 +1,3 @@
+Reliable temperature measurement is critical for any industrial heating process. At Konark Process Instruments, we ensure that your furnace automation is built on accurate, drift-free sensor data. We specify and integrate the correct thermocouple types for your specific process environments, minimizing sensor degradation and maintaining precise thermal control. Accurate data prevents off-spec production and reduces unnecessary fuel consumption. Rely on our 20+ years of engineering expertise to secure your process integrity.
+
+Contact us via WhatsApp at +91 8905378147 or email konarkinstruments@gmail.com for industrial automation solutions. Visit [Insert website link after deployment] for more details.
