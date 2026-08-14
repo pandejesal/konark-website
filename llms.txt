@@ -1,0 +1,18 @@
+# Konark Process Instruments
+
+> Industrial automation and control engineering company in Ahmedabad, India: Burner Management Systems (BMS), furnace automation, PLC/SCADA programming, DG-set automation, and control panel fabrication. 20+ years of engineering experience; work for the Indian Navy (auxiliary boiler BMS, INS Yamuna and INS Savitri), Bharat Forge, Vesuvius India, Jindal Saw, and Kenblest Group (Kenya).
+
+## Pages
+
+- [About](https://konarkprocessinstruments.com/about.html): company history, engineering philosophy, single-owner accountability
+- [Services](https://konarkprocessinstruments.com/services.html): BMS, furnace automation, self-recuperative burner management, tundish heating (Dumac), DG-set automation and AMF panels, PLC/SCADA, control panels, commissioning
+- [Case Studies](https://konarkprocessinstruments.com/case-studies.html): Indian Navy, Bharat Forge, Vesuvius India, Jindal Saw, Kenblest Group (Kenya)
+- [Technical Articles](https://konarkprocessinstruments.com/articles/): furnace safety audits, BMS lifecycle cost, energy savings proof methodology
+- [Contact](https://konarkprocessinstruments.com/contact.html): WhatsApp +91 89053 78147, konarkinstruments@gmail.com, 22, Mahavir Industrial Park, Vatva, Ahmedabad - 382845
+
+## Key facts
+
+- Founder: Mr. Nilesh Pande, lead engineer, single-owner accountability on every project
+- Facility: in-house control panel design, wiring and testing at Vatva, Ahmedabad
+- Platforms: Siemens and Rockwell PLC/SCADA
+- Track record: defense (Indian Navy), heavy industry (Bharat Forge), continuous casting (Vesuvius India), steel (Jindal Saw), overseas commissioning (Kenblest Group, Kenya)

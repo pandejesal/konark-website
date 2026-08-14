@@ -74,7 +74,7 @@ The form posts to **FormSubmit.co** (`https://formsubmit.co/konarkinstruments@gm
 1. On the **first submission**, FormSubmit sends an activation email to
    `konarkinstruments@gmail.com` — click the confirmation link once. The form works forever after.
 2. After deploying, update the hidden `_next` field in `contact.html` to your live absolute URL
-   (e.g., `https://konarkinstruments.in/contact.html?sent=1`). Until then, the redirect points at the
+   (e.g., `https://konarkprocessinstruments.com/contact.html?sent=1`). Until then, the redirect points at the
    placeholder domain — the email still arrives, but the user is not redirected back.
 3. `_captcha=false` is set so buyers are not blocked by a captcha (B2B form, low spam volume).
 

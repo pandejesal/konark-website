@@ -1,9 +1,9 @@
 # DEPLOY.md — Go live for free (then add domain + email)
 
-Three parts: (0) test locally, (1) free hosting — pick **Netlify Drop** (simplest) **or GitHub Pages**,
-(2) buy a `.in` domain and point it, (3) free business email with Zoho.
+Three parts: (0) test locally, (1) free hosting — **GitHub Pages** (already live),
+(2) buy `konarkprocessinstruments.com` at Cloudflare Registrar and point it, (3) free business email with Zoho.
 
-**Time: ~90 minutes total.** No cost unless you buy the domain (~₹800–900/yr) — hosting is free.
+**Time: ~90 minutes total.** No cost unless you buy the domain ($10.44/yr at cost) — hosting is free.
 
 ---
 
@@ -34,27 +34,34 @@ Three parts: (0) test locally, (1) free hosting — pick **Netlify Drop** (simpl
    (index.html, css/, js/, assets/, etc.) — **not** the folder itself, its contents — into the window.
 4. Settings → Pages → Source: "Deploy from a branch" → branch `main`, folder `/ (root)` → Save.
 5. Your site is live at `https://<username>.github.io/konark-website/` within 1–2 minutes.
-6. To point a custom domain at it later: Settings → Pages → Custom domain → `konarkinstruments.in`
-   and create a file named `CNAME` (no extension) in the repo root containing `konarkinstruments.in`.
-   At your registrar, add four A records: `185.199.108.153`, `185.199.109.153`,
-   `185.199.110.153`, `185.199.111.153`.
+6. To point a custom domain at it later: Settings → Pages → Custom domain → `konarkprocessinstruments.com`
+   and create a file named `CNAME` (no extension) in the repo root containing `konarkprocessinstruments.com`.
+   At your registrar (Cloudflare DNS), add the CNAME `konarkprocessinstruments.com` → `pandejesal.github.io`
+   (Cloudflare flattens CNAME at the apex) or the four A records: `185.199.108.153`, `185.199.109.153`,
+   `185.199.110.153`, `185.199.111.153`. Full step-by-step: see the `DOMAIN-STEP-SHEET.md` in this repo.
 7. Edit the site any time: change files in the repo (the jules agent can do this for you) — Pages
    rebuilds automatically on every commit.
 
 ---
 
-## 2. Buy a domain: konarkinstruments.in (~₹800–900/yr, 20 min)
+## 2. Buy a domain: konarkprocessinstruments.com at Cloudflare ($10.44/yr, 20 min)
 
-1. Buy at **GoDaddy India** (godaddy.com/en-in) or **Hostinger India** (hostinger.in). Search
-   `konarkinstruments.in` (~₹800–900/yr; `.com` costs more — `.in` is right for India + cheaper).
-   Also consider buying `konarkinstruments.com` later as a redirect guard if you can afford it.
-2. Whichever host you chose above:
-   - **Netlify:** In Netlify → Domain settings → Add custom domain → enter `konarkinstruments.in`
-     → follow the DNS instructions (point the domain at Netlify's nameservers, or add the
-     `CNAME`/`ALIAS` record Netlify shows you).
-   - **GitHub Pages:** add the four A records above + the CNAME file (step 1B.6).
-3. DNS can take 15 minutes to 48 hours to spread. Test at `https://konarkinstruments.in` after.
-4. **After the domain works, update these placeholders** (search for `konarkinstruments.in` in the files):
+1. Create a free account at **dash.cloudflare.com** (use `konarkinstruments@gmail.com`).
+2. **Register** → search `konarkprocessinstruments.com` → checkout at cost ($10.44/yr, no markup,
+   no upsells — unlike GoDaddy/Hostinger). Cloudflare does **not** sell `.in` domains; `.com` was
+   the decision. Registrar = DNS host = one dashboard.
+3. With Cloudflare Registrar the domain automatically uses **Cloudflare DNS** (required). No
+   nameserver changes needed.
+4. Point it at GitHub Pages (see full step sheet in the repo: `DOMAIN-STEP-SHEET.md`):
+   - Settings → Pages → Custom domain → enter `konarkprocessinstruments.com` → Save.
+   - GitHub shows a TXT verification record (`_github-pages-challenge-...`) — add it in Cloudflare DNS.
+   - Add the CNAME record `konarkprocessinstruments.com` → `pandejesal.github.io` (Cloudflare
+     flattens CNAME at the apex) **and** a `CNAME` file with the domain in the repo root
+     (or use the four A records: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`,
+     `185.199.111.153` — Cloudflare recommends the CNAME method).
+   - In Cloudflare: orange-cloud the record (proxy on) to get free SSL + CDN.
+5. DNS can take 15 minutes to 48 hours to spread. Test at `https://konarkprocessinstruments.com` after.
+6. **After the domain works, update these placeholders** (search for `konarkprocessinstruments.com` in the files):
    - `index.html`: canonical URL + og:url + JSON-LD `url`
    - `sitemap.xml`: all URLs (already use the domain — verify)
    - `robots.txt`: sitemap URL
@@ -63,18 +70,18 @@ Three parts: (0) test locally, (1) free hosting — pick **Netlify Drop** (simpl
 
 ---
 
-## 3. Free business email: name@konarkinstruments.in (Zoho, 30 min)
+## 3. Free business email: name@konarkprocessinstruments.com (Zoho, 30 min)
 
-A `@gmail.com` address looks wrong on a defense-grade website; `mr.pande@konarkinstruments.in` looks
+A `@gmail.com` address looks wrong on a defense-grade website; `mr.pande@konarkprocessinstruments.com` looks
 right. Zoho Mail's free plan ("Forever Free") gives you up to 5 mailboxes.
 
-1. Go to **zoho.com/mail** → Sign up → Business → **Free plan** → enter `konarkinstruments.in`.
-2. Create mailboxes, e.g. `info@`, `mr.pande@`. Start with **info@konarkinstruments.in** as the main one.
-3. Zoho shows you **MX records** to add at your registrar (GoDaddy/Hostinger DNS panel):
+1. Go to **zoho.com/mail** → Sign up → Business → **Free plan** → enter `konarkprocessinstruments.com`.
+2. Create mailboxes, e.g. `info@`, `mr.pande@`. Start with **info@konarkprocessinstruments.com** as the main one.
+3. Zoho shows you **MX records** to add at your registrar (Cloudflare DNS panel):
    - MX: `mx.zoho.in` (priority 10) — for Zoho accounts outside India use `mx.zoho.com`; Zoho will show the exact value
    - TXT/SPF: `v=spf1 include:zoho.in ~all`
    - TXT DKIM: generate in Zoho, paste the long key at your registrar
-4. Email works within a few hours of DNS spread. Test by sending from Gmail to info@konarkinstruments.in.
+4. Email works within a few hours of DNS spread. Test by sending from Gmail to info@konarkprocessinstruments.com.
 5. Optional: set up forwarding of `konarkinstruments@gmail.com` → info@ so nothing is lost.
 6. Update the website's contact email if you switch the public address to info@ — remember: it appears
    on **all 5 pages** (top bar + footer) plus `contact.html`'s FormSubmit action.

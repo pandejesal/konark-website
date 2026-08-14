@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://konarkinstruments.in/sitemap.xml
+Sitemap: https://konarkprocessinstruments.com/sitemap.xml
