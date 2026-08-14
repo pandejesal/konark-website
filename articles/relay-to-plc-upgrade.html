@@ -4,25 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>When should a furnace owner upgrade from relay logic to a PLC-based BMS? | Konark Process Instruments</title>
-  <meta name="description" content="Five signals that tell a furnace owner when hardwired relay logic has aged out - and what a migration to a PLC-based burner management system must preserve.">
+  <meta name="description" content="Five signals that tell a furnace owner when hardwired relay logic has aged out, and what a migration to a PLC-based burner management system must preserve.">
   <link rel="canonical" href="https://konarkprocessinstruments.com/articles/relay-to-plc-upgrade.html">
 
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Konark Process Instruments">
   <meta property="og:title" content="When should a furnace owner upgrade from relay logic to a PLC-based BMS?">
-  <meta property="og:description" content="Five signals that tell a furnace owner when hardwired relay logic has aged out - and what a migration to a PLC-based burner management system must preserve.">
+  <meta property="og:description" content="Five signals that tell a furnace owner when hardwired relay logic has aged out, and what a migration to a PLC-based burner management system must preserve.">
   <meta property="og:url" content="https://konarkprocessinstruments.com/articles/relay-to-plc-upgrade.html">
   <meta property="og:image" content="https://konarkprocessinstruments.com/assets/images/og-cover.png">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="When should a furnace owner upgrade from relay logic to a PLC-based BMS?">
-  <meta name="twitter:description" content="Five signals that tell a furnace owner when hardwired relay logic has aged out - and what a migration to a PLC-based burner management system must preserve.">
+  <meta name="twitter:description" content="Five signals that tell a furnace owner when hardwired relay logic has aged out, and what a migration to a PLC-based burner management system must preserve.">
   <meta name="twitter:image" content="https://konarkprocessinstruments.com/assets/images/og-cover.png">
 
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/styles.css">
 
   <script type="application/ld+json">
@@ -30,7 +30,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "When should a furnace owner upgrade from relay logic to a PLC-based BMS?",
-    "description": "Five signals that tell a furnace owner when hardwired relay logic has aged out - and what a migration to a PLC-based burner management system must preserve.",
+    "description": "Five signals that tell a furnace owner when hardwired relay logic has aged out, and what a migration to a PLC-based burner management system must preserve.",
     "author": { "@type": "Person", "name": "Nilesh Pande", "jobTitle": "Founder and Lead Engineer" },
     "publisher": { "@type": "Organization", "name": "Konark Process Instruments" },
     "url": "https://konarkprocessinstruments.com/articles/relay-to-plc-upgrade.html",
@@ -93,7 +93,7 @@
 
     <section class="section">
       <div class="container article-body">
-<h2>Why this matters</h2><p>Many furnaces in India still run burner sequences on hardwired relay and timer logic. It worked for decades, and it will keep working - until the day it does not. The question is not whether relay logic is bad. The question is when the cost of keeping it becomes higher than the cost of replacing it. This article gives an owner the five signals that decide it.</p><h2>1. Your maintenance team cannot trace the logic</h2><p>A relay panel is only as good as its drawings. If the as-built diagrams are missing, faded or simply wrong, every fault becomes a tracing exercise that burns hours. A PLC keeps the sequence in a program file that can be opened, searched and printed by any engineer in a day. When the drawings cannot be trusted, the logic has already aged out.</p><h2>2. You are adding interlocks faster than you can wire them</h2><p>Every new safety requirement means a new relay, a new wire and a new drawing revision. Past a certain point, the panel is full, the terminals are double-stuffed and the chance of a wiring error climbs with every addition. A PLC adds interlock logic in software - no new wire, no new terminal, no new drawing.</p><h2>3. Your furnace trips for reasons nobody can reproduce</h2><p>Relay logic is opaque. When a sequence fails, you see the result, not the reason. A PLC records the exact step, the missing input and the timestamp when the trip happened. "It tripped again" becomes "it tripped at 03:14 on step 6 because the air pressure switch never closed" - and that is the difference between a mystery and a repair.</p><h2>4. You want data, not just control</h2><p>A relay panel controls. It does not tell you how many light-offs happened this month, how long the purge lasted, or how many times the flame was lost. That data is what operators use to tune a furnace and what plant heads use to justify the next investment. If you want trends and reports, you need a system that can produce them - which means a PLC with a recording layer.</p><h2>5. The spare parts are getting expensive</h2><p>Relay-based systems from the 1990s and 2000s rely on components that are increasingly hard to source. When a spare takes weeks and costs more than the original component, the supply chain has made the decision for you.</p><h2>What the upgrade should preserve</h2><p>A well-engineered migration does not throw away the safety thinking of the old system - it carries it forward:</p><ol><li>The existing safety interlocks must be reproduced exactly, then improved, not reinterpreted</li></ol><p>2. The operator interface should feel familiar; retraining is a cost that can be planned 3. The old panel should be tested against the new logic side by side before cutover 4. The sequence must be proven at factory test, not discovered at the plant</p><h2>The Konark position (1 paragraph, first-person, no invented data)</h2><blockquote><p>"We have retrofitted furnace control systems where the relay panel had outlived its drawings, and the rule we follow is simple: the migration must preserve every safety interlock the operators already trust, and add the visibility they never had. We build the new logic, test it against the old sequence step by step, and hand over a system the maintenance team can actually open and understand." - Nilesh Pande, Konark Process Instruments</p></blockquote><p class="article-contact">Contact: <a href="https://wa.me/918905378147">WhatsApp +91 89053 78147</a> | <a href="mailto:konarkinstruments@gmail.com">konarkinstruments@gmail.com</a></p>
+<h2>Why this matters</h2><p>Many furnaces in India still run burner sequences on hardwired relay and timer logic. It worked for decades, and it will keep working, until the day it does not. The question is not whether relay logic is bad. The question is when the cost of keeping it becomes higher than the cost of replacing it. This article gives an owner the five signals that decide it.</p><h2>1. Your maintenance team cannot trace the logic</h2><p>A relay panel is only as good as its drawings. If the as-built diagrams are missing, faded or simply wrong, every fault becomes a tracing exercise that burns hours. A PLC keeps the sequence in a program file that can be opened, searched and printed by any engineer in a day. When the drawings cannot be trusted, the logic has already aged out.</p><h2>2. You are adding interlocks faster than you can wire them</h2><p>Every new safety requirement means a new relay, a new wire and a new drawing revision. Past a certain point, the panel is full, the terminals are double-stuffed and the chance of a wiring error climbs with every addition. A PLC adds interlock logic in software, no new wire, no new terminal, no new drawing.</p><h2>3. Your furnace trips for reasons nobody can reproduce</h2><p>Relay logic is opaque. When a sequence fails, you see the result, not the reason. A PLC records the exact step, the missing input and the timestamp when the trip happened. "It tripped again" becomes "it tripped at 03:14 on step 6 because the air pressure switch never closed", and that is the difference between a mystery and a repair.</p><h2>4. You want data, not just control</h2><p>A relay panel controls. It does not tell you how many light-offs happened this month, how long the purge lasted, or how many times the flame was lost. That data is what operators use to tune a furnace and what plant heads use to justify the next investment. If you want trends and reports, you need a system that can produce them, which means a PLC with a recording layer.</p><h2>5. The spare parts are getting expensive</h2><p>Relay-based systems from the 1990s and 2000s rely on components that are increasingly hard to source. When a spare takes weeks and costs more than the original component, the supply chain has made the decision for you.</p><h2>What the upgrade should preserve</h2><p>A well-engineered migration does not throw away the safety thinking of the old system, it carries it forward:</p><ol><li>The existing safety interlocks must be reproduced exactly, then improved, not reinterpreted</li><li>The operator interface should feel familiar; retraining is a cost that can be planned </li><li>The old panel should be tested against the new logic side by side before cutover </li><li>The sequence must be proven at factory test, not discovered at the plant</li></ol><blockquote><p>"We have retrofitted furnace control systems where the relay panel had outlived its drawings, and the rule we follow is simple: the migration must preserve every safety interlock the operators already trust, and add the visibility they never had. We build the new logic, test it against the old sequence step by step, and hand over a system the maintenance team can actually open and understand." Nilesh Pande, Konark Process Instruments</p></blockquote><p class="article-contact">Contact: <a href="https://wa.me/918905378147">WhatsApp +91 89053 78147</a> | <a href="mailto:konarkinstruments@gmail.com">konarkinstruments@gmail.com</a></p>
       </div>
     </section>
 
@@ -101,7 +101,7 @@
       <div class="cta-inner">
         <div>
           <h2 class="cta-title">Need this engineering, done properly?</h2>
-          <p class="cta-sub">Talk to an engineer - call, email or WhatsApp us.</p>
+          <p class="cta-sub">Talk to an engineer: call, email or WhatsApp us.</p>
         </div>
         <div class="cta-actions">
           <a class="btn btn-navy" href="tel:+918905378147">Call Now</a>
@@ -116,7 +116,7 @@
     <div class="footer-grid">
       <div class="footer-col">
         <h3 class="footer-title">Konark Process Instruments</h3>
-        <p>Industrial automation and control engineering from Ahmedabad, India - 20+ years of Burner Management Systems, furnace automation, PLC &amp; SCADA and control panels. We serve clients in India and worldwide.</p>
+        <p>Industrial automation and control engineering from Ahmedabad, India. 20+ years of Burner Management Systems, furnace automation, PLC &amp; SCADA and control panels. We serve clients in India and worldwide.</p>
       </div>
       <div class="footer-col">
         <h3 class="footer-title">Quick links</h3>
