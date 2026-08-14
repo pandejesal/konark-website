@@ -1,0 +1,3 @@
+Are you losing energy through poor combustion control? Industrial burner efficiency relies heavily on exact air-fuel ratio management. At Konark Process Instruments, we engineer Burner Management Systems that integrate precise oxygen trim and excess air control to minimize waste heat. Proper tuning and automated control loops ensure your fuel is converted to useful heat rather than being lost up the stack. We bring over two decades of engineering experience to optimize your combustion process safely and reliably.
+
+Contact us today to discuss optimizing your burner systems. Send a message on WhatsApp at +91 8905378147 or email konarkinstruments@gmail.com. Visit [Insert website link after deployment] for more details.

@@ -1,0 +1,3 @@
+The physical safety of your industrial furnace starts with a properly engineered gas train. Konark Process Instruments designs and integrates gas trains with strict double block and bleed configurations, valve proving, and automated leak testing. Our Burner Management Systems are programmed to execute these critical safety sequences flawlessly before any ignition. We do not compromise on the safety shutoff mechanisms that protect your plant and personnel. Upgrade your combustion safety with our engineered solutions.
+
+Contact us via WhatsApp at +91 8905378147 or email konarkinstruments@gmail.com. Visit [Insert website link after deployment].

@@ -1,0 +1,3 @@
+Are your operators overwhelmed by SCADA alarm flooding? At Konark Process Instruments, we believe a control interface should provide clarity, not confusion. We implement rigorous alarm rationalization in our HMI and SCADA designs, ensuring every alert is prioritized and actionable. By eliminating nuisance alarms, we reduce operator fatigue and improve response times during critical process deviations. Upgrade your control systems to provide clear, actionable intelligence to your operations team.
+
+For control panel and SCADA solutions, contact us via WhatsApp at +91 8905378147 or email konarkinstruments@gmail.com. Visit [Insert website link after deployment].
