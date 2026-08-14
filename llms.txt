@@ -13,6 +13,7 @@
 ## Key facts
 
 - Founder: Mr. Nilesh Pande, lead engineer, single-owner accountability on every project
+- GSTIN: 24BHTPP8730R1Z8
 - Facility: in-house control panel design, wiring and testing at Vatva, Ahmedabad
 - Platforms: Siemens and Rockwell PLC/SCADA
 - Track record: defense (Indian Navy), heavy industry (Bharat Forge), continuous casting (Vesuvius India), steel (Jindal Saw), overseas commissioning (Kenblest Group, Kenya)
